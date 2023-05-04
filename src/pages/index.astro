@@ -7,9 +7,18 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Tulsa Hack Club</title>
+		<style>
+			@keyframes zoom {
+					0%, 100% { background-size: 100%;}
+					50% { background-size: 110%;}
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<!-- Image by Daniel Nieto on Unsplash -->
+		<div id="cover" style="animation: zoom 18s infinite;" class="flex flex-col w-screen h-screen items-center justify-center bg-center brightness-75 bg-[url(/background.png)] bg-cover">
+			<img src="/wordmark.svg" alt="Tulsa Hack Club Emblem" class="w-1/4 p-10 bg-[#FFFFFFAA] rounded-2xl backdrop-blur-md">
+		</div>
 	</body>
 </html>
