@@ -40,12 +40,18 @@ import "@fontsource/metropolis/all.css"
 			</section>
 		</div>
 		<div class="flex flex-col items-center px-10 py-10 w-screen font-sans font-bold bg-brandblue-800 text-brandblue-300" id="footer">
-			<img src="/emblem.svg" alt="Emblem" class="pb-1">
+			<div class="flex flex-row">
+				<img src="/emblem.svg" alt="Emblem" class="pb-1"/>
+			</div>
 			<img src="/wordmark.svg" alt="wordmark" class="pb-3">
 			&copy; Tulsa Hack Club 2023 { new Date().getFullYear() == 2023 ? '' : `-${new Date().getFullYear()}`}
 
 			<button data-tf-popup="OzdJDcoO" data-tf-opacity="100" data-tf-size="100" data-tf-iframe-props="title=Tulsa Hack Club Signup" data-tf-transitive-search-params data-tf-medium="snippet" class="bg-brandblue-800 hover:bg-brandblue-900 duration-500 transition-all rounded-full text-brandblue-100 hover:text-brandblue-300 py-3 px-5 text-lg mt-4 ring-brandblue-900 hover:ring-0 ring-4 ring-inset">Join us!</button>
 			<script src="../embed.js"></script>
+		</div>
+
+		<div class="w-full bg-brandblue-800">
+			<a href="https://hackclub.com/"><img src="/flag.svg" alt="Hack Club Flag" width="200" class="self-start"></a>
 		</div>
 	</body>
 </html>
